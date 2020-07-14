@@ -1,0 +1,78 @@
+/* PRESS KIT */
+
+.presskit-main {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-top: 100px;
+    width: 846px;
+}
+
+.presskit-info {
+    width: 262px;
+}
+.presskit-titulo {
+    margin-top: 50px;
+}
+
+.presskit-h1 {
+    
+    color: #d5423e;
+    font-size: 3.3em;
+    font-weight: bold;
+}
+
+.presskit-texto {
+    font-size: 1.1em;
+    justify-content:left;
+    line-height: normal;
+    margin: 20px 0;
+    text-align: start;
+    width: 262px;
+}
+
+.presskit-imagem img {
+    height: 530;
+    margin: 50px 0;
+    width: 400px;
+}
+
+.presskit-botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+} 
+
+.presskit-baixar {
+    background-color: rgba(204, 204, 204, 1);
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    height: 40px;
+    padding: 10px;
+    transition: all .4s ease;
+    width: 122px;
+}
+
+.presskit-baixar:hover {
+    background-color: #f8be00;
+}
+
+.presskit-itens {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    height: 40px;
+    justify-content: center;
+    padding: 0;
+    transition: all .4s ease;
+    width: auto;
+}
+
+.presskit-itens:hover {
+    color: #f8be00
+}

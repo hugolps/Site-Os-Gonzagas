@@ -1,0 +1,107 @@
+/* MÚSICA */
+
+/* albuns */
+.albuns-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 200px;
+    height: auto;
+}
+
+.albuns-titulo{
+    color: #D5423E;
+    font: normal normal bold 50px/1.4em raleway-semibold,raleway,sans-serif;;
+    margin: 30px 0;
+}
+
+.albuns {
+    width: 100%;
+    padding-top: 130px;
+    height: auto;
+}
+
+.albuns-container{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+.albuns-itens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 258px;
+}
+
+.albuns-itens:first-child{
+    margin-left: 0;
+}
+
+.redes-lista {
+    display: flex;
+}
+
+.albuns-capa img {
+    height: 258px;
+    width: 258px;
+    object-fit: cover;
+}
+
+.albuns-media{
+    width: 258px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociais img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    padding: 3px;   
+}
+
+/* músicas */
+
+.musicas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.musicas-capa img {
+    width: 405px;
+    height: 401px;
+    object-fit: cover
+}
+
+.musicas-media {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+/* vídeos */
+
+.videos {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.videos-titulo {
+    color: #D5423E;
+    font: normal normal bold 50px/1.4em raleway-semibold,raleway,sans-serif;;
+    margin: 30px 0;
+}
+
+.videos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos-capa {
+    object-fit: cover;
+    margin-bottom: 70px;
+}

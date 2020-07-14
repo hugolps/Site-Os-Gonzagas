@@ -1,0 +1,75 @@
+/* Cabeçalho */
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #1c1c1c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 9999;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: #f8be00;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    width: auto;
+    padding: 0px 200px 0px 200px;
+    margin: 0px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu {
+    display: inline-block;
+    padding: 10px 10px 10px 0px;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu-item:first-child{
+    padding-left: 0;
+}
+.menu-item {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.menu-item:hover{
+    color: #f8be00;
+}
+
+.menu-item:active{
+    text-decoration: none;
+}
+
+.nome-banda {
+    font-family: 'Rozha One', serif;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.nome-banda:hover {
+    color: #f8be00;
+}
+
+.titulo {
+    right: 0;
+    margin-right: 0px;
+    top: 0px;
+}

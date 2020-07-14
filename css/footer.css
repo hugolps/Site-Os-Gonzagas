@@ -1,0 +1,55 @@
+/* Footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;  
+}
+
+footer li {
+    display: inline;
+    margin: 2px
+}
+
+.titulo-footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 16px;
+    color: #d5423e;
+    margin: 20px;
+    font-family: 'raleway-semibold','raleway',sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-footer h6 {
+    margin-bottom: 15px;
+}
+
+.footer-contato {
+    color: #605e5e;
+    margin-top: 15px;  
+}
+
+/* Player Deezer */
+
+.div-deezer {
+    margin: 0;
+    border: 0;
+    padding: 20px;
+    width: calc(100% - 400px);
+}
+
+.player-deezer {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+}

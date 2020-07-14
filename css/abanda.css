@@ -1,0 +1,106 @@
+/*  A Banda  */
+
+.abanda-main {
+    display: flex;
+    flex-direction: column;
+    width: 848px;
+    font-family: 'raleway-semibold','raleway',sans-serif;
+    padding-bottom: 20px;
+    color: #1f1f1f;
+    padding: 0 200px;
+    align-items: center;
+}
+
+.abanda-titulo{
+    display: flex;
+    font-weight: bold;
+    color: #d5423e;
+    font-size: 3.3em;
+    align-self: start;
+    font-family: 'raleway-semibold','raleway',sans-serif;
+    padding: 0.8em 0;
+    margin-top: 130px;
+}
+
+.abanda-texto {
+    text-align: justify;
+    padding: 30px 0;
+
+}
+
+.abanda-texto p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: normal;
+    font-size: 1.2em;
+}
+
+.integrantes {
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.integrantes-lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.integrantes-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.integrantes-img {
+    position: relative;
+}
+.integrantes-item {
+    display: flex;    
+    border-radius: 50%;
+    width: 146px;
+    height: 146px;
+    justify-content: center;
+    z-index: 0;
+    top: 0;
+    left: 0;
+
+}
+
+.integrantes-li p, .integrantes-li span {
+    align-self: center;
+    line-height: 1.3em;
+}
+
+.integrantes-li span {
+    margin-top: 20px;
+}
+
+
+.ig-container{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    left: calc(50% - 13px);
+    bottom: 5px;
+
+}
+.ig-cover {
+    width: 26px;
+    height: 26px;
+}
+
+.abanda-banner {
+    width: 848px;
+    height: 396px;
+    object-fit: cover;
+}
